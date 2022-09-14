@@ -1,60 +1,155 @@
 * {
-    box-sizing: border-box;
-    
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    background-color: #F5F7FB;
-    
+  margin: 0;
+  background-color: #f5f7fb;
 }
 
 .first-page {
-    display: flex;
-    align-items: center; 
-    flex-direction: row; 
-    text-align: center;
-    margin-top: 15%;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 15%;
+  justify-content: space-between;
 }
 
 .first-page h1 {
-    font-family: 'Karla';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 31.25px;
-    line-height: 37px;
-    color: #293264;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 37px;
+  color: #293264;
 }
 
 .first-page p {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #293264;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #293264;
 }
 
 .first-page button {
-    background: #4D5B9E;
-    border-radius: 15px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    color: #F5F7FB;
-    border: none;
-    width: 193px;
-    height: 52px;
-    cursor: pointer;
+  background: #4d5b9e;
+  border-radius: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f5f7fb;
+  border: none;
+  width: 193px;
+  height: 52px;
+  cursor: pointer;
 }
 
 .blob1 {
-    align-self: flex-start;
+  align-self: flex-start;
 }
 
 .blob2 {
-    align-self: flex-end;
+  align-self: flex-end;
+}
+
+.quiz {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  /* margin-top: 15%; */
+  justify-content: space-between;
+}
+
+.question {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #293264;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.answers {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-align: center;
+  color: #293264;
+  background-color: transparent;
+  border-radius: 7.94239px;
+
+  cursor: pointer;
+  margin: 13px;
+  border: 0.794239px solid #4d5b9e;
+
+  padding: 5px 20px;
+}
+
+.clicked-answer {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-align: center;
+  color: #293264;
+  background: #d6dbf5;
+  border-radius: 7.94239px;
+
+  cursor: pointer;
+  margin: 13px;
+  border-color: transparent;
+
+  padding: 5px 20px;
+}
+
+.correct {
+  background: #94d7a2;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-align: center;
+  color: #293264;
+
+  border-radius: 7.94239px;
+
+  cursor: pointer;
+  margin: 13px;
+  border-color: transparent;
+
+  padding: 5px 20px;
+}
+
+.wrong {
+  background: #f8bcbc;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-align: center;
+  color: #293264;
+
+  border-radius: 7.94239px;
+
+  cursor: pointer;
+  margin: 13px;
+  border-color: transparent;
+
+  padding: 5px 20px;
 }

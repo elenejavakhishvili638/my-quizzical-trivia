@@ -1,0 +1,71 @@
+.first-page {
+  /* display: flex; */
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 15%;
+  /* justify-content: space-between; */
+}
+
+.first-page h1 {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 37px;
+  color: #293264;
+}
+
+.first-page p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #293264;
+}
+
+.first-page button {
+  background: #4d5b9e;
+  border-radius: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f5f7fb;
+  border: none;
+  width: 193px;
+  height: 52px;
+  cursor: pointer;
+}
+
+.blob1 {
+  /* align-self: flex-start; */
+  height: 200px;
+  width: 297px;
+  background-color: #deebf8;
+  position: absolute;
+  bottom: 0%;
+  left: -5%;
+  border-top-left-radius: 55%;
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 5%;
+  border-bottom-left-radius: 20%;
+  /* transform: rotate(20deg); */
+}
+
+.blob2 {
+  /* align-self: flex-end; */
+  height: 235px;
+  width: 297px;
+  background-color: #fffad1;
+  position: absolute;
+  right: 0px;
+  top: -100px;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+  /* transform: rotate(-320deg); */
+}
